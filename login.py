@@ -24,10 +24,7 @@ def logo():
 def login():
     # for clear the screen
     os.system("clear")
-    print("\033[1;36;49m")
-    logo()
-    print("\033[1;36;49m")
-    print("")
+    
     usr = input("Enter your Username : ")
     # This is username you can change here
     usr1 = "raj"
